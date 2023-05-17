@@ -1,0 +1,18 @@
+.TableColumn {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.TableContent {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border: 1px black solid;
+    width: calc(100%/7);
+    height: 70px;
+    padding: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

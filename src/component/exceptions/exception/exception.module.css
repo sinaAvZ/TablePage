@@ -1,0 +1,33 @@
+.Exception {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.ExceptionInput {
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    width: 30px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.ExceptionLabel {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(143, 143, 143);
+
+}
+
+.ExceptionSelect {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.CloseImage {
+    width: 10px;
+    height: 10px;
+    margin: auto 0;
+}

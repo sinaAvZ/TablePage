@@ -1,0 +1,49 @@
+.Exceptions {
+    width: 40%;
+    z-index: 100;
+    top: 20%;
+    right: 50%;
+    padding: 2rem;
+    border-radius: 15px;
+    position: fixed;
+    transform: translate(50%, 50%);
+    background-color: #fff;
+}
+
+.AddRemDiv {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.AddRem {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin: 0 1rem;
+    color: #C7C9D9;
+}
+
+.Save {
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    background: #FF4F7D;
+    border-radius: 66px;
+    margin: 1rem;
+    color: white;
+}
+
+.Cancel {
+    color: white;
+    outline: none;
+    border: none;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    background: #4F7DFF;
+    border-radius: 66px;
+}

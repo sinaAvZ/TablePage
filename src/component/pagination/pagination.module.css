@@ -1,0 +1,24 @@
+.Pagination{
+    margin: 3rem auto;
+}
+.Link {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+}
+
+.Link a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.PaginationLink:active,
+.PaginationLink:focus {
+    padding: 10px 20px;
+    border-radius: 50%;
+    background: #717FBB;
+    color: white;
+}

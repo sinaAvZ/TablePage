@@ -1,0 +1,30 @@
+.Table{
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    color: #717FBB;
+    font-family: Inter;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(90, 92, 124, 0.03);
+    border-radius: 5px;
+    padding: 2rem;
+ 
+}
+.TableColumn {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.TableContent {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border: 1px black solid;
+    width: calc(100%/7);
+    height: 70px;
+    padding: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

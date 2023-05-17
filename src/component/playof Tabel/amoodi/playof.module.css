@@ -1,0 +1,138 @@
+.PlayOf {
+  
+    width: 100%;
+
+}
+
+.Winner {
+    margin: 5rem;
+    display: flex;
+}
+
+.Final {
+    margin: 5rem;
+    display: flex;
+}
+
+.Yekdovom {
+    margin: 5rem;
+    display: flex;
+}
+
+.Yekchaharom {
+    margin: 5rem;
+    display: flex;
+}
+
+.Yekhashtom {
+    margin: 5rem;
+    display: flex;
+}
+
+.TwoPlayer {
+    width: 100%;
+
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.TwoPlayerYekdovom::before {
+    content: ' ';
+    width: 51.1%;
+    left: 50%;
+    top: -50%;
+    height: 10px;
+    position: absolute;
+    background-color: crimson;
+    transform: translate(-50%, 0);
+}
+
+.TwoPlayerYekchaharom::before {
+    content: ' ';
+    width: 52%;
+    left: 50%;
+    top: -50%;
+    height: 10px;
+    position: absolute;
+    background-color: crimson;
+    transform: translate(-50%, 0);
+}
+
+.TwoPlayerYekhashtom::before {
+    content: ' ';
+    width: 54%;
+    left: 50%;
+    top: -50%;
+    height: 10px;
+    position: absolute;
+    background-color: crimson;
+    transform: translate(-50%, 0);
+}
+
+.PlayerInfo {
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    width: 150px;
+    height: 100px;
+    position: relative;
+
+}
+
+.Topline::before {
+    content: ' ';
+    width: 10px;
+    height: 2.5rem;
+    left: 50%;
+    top: -2.5rem;
+    position: absolute;
+    background-color: crimson;
+    transform: translate(-50%, 0);
+}
+
+.Downline::after {
+    content: ' ';
+    position: absolute;
+    background-color: crimson;
+    transform: translate(-50%, 0);
+    width: 10px;
+    height: 2.5rem;
+    height: 2.5rem;
+    bottom: -2.5rem;
+    left: 50%;
+}
+
+.CoachName {
+    color: rgb(155, 155, 155);
+}
+
+.FighterName {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.FighterName:nth-child(2n-1) {
+    color: red;
+}
+
+.FighterName:nth-child(even) {
+    color: blue;
+
+}
+
+.FighterName::before {
+    background-color: yellow;
+    position: absolute;
+    left: 5px;
+    top: 35%;
+    border-radius: 25px;
+    content: ' ';
+    width: 10px;
+    height: 10px;
+
+}

@@ -1,0 +1,27 @@
+.Winner {
+    border: 2px solid #17D0DD;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 20%;
+    margin: 2rem 2.5%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.Winner:nth-of-type(2) {
+margin: 1rem;
+}
+
+.WinnerTexts {
+    display: inline-block;
+}
+
+.WinnerTexts h5,
+.WinnerTexts h6 {
+
+    width: auto;
+}

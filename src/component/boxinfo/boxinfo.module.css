@@ -1,0 +1,71 @@
+.BoxInfo {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    color: #717FBB;
+    display: flex;
+    font-family: Inter;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(90, 92, 124, 0.03);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.BoxInfo *>h1 {
+    color: #555770;
+    margin: 1rem 0;
+}
+
+.Admin {
+    margin: 5%;
+    width: 35%;
+    margin-left: 0;
+}
+
+.Texts {
+    width: 100px;
+    min-width: 100px;
+    border: none;
+    outline: none;
+    margin: 0 5px;
+    background-color: transparent;
+    font-style: normal;
+    border-bottom: 2px solid #E4E4EB;
+    background-color: transparent;
+}
+
+.Configuration {
+    width: 35%;
+    margin: 5%;
+    margin-left: 0;
+}
+
+.JudgeCount {
+
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.KdKo {
+    height: 50%;
+    margin: auto 0;
+    width: 20%;
+}
+.EditBtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+}
+.EditBtn>img{
+    width: 100px;
+    height: 50px;
+}
+.ExceptionShow{
+margin: 0 .5rem;
+cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.Winners {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 5rem auto;
+}

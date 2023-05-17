@@ -1,0 +1,183 @@
+.PlayOf {
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Inter;
+}
+
+.Winner {
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Final {
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+.Winner > div{
+    margin: auto;
+}
+.Yekdovom {
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Yekchaharom {
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Yekhashtom {
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.TwoPlayer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.TwoPlayerYekdovom>div {
+    margin: 18rem auto;
+}
+
+.TwoPlayerYekdovom::before {
+    content: ' ';
+    height: 50%;
+    top: 50%;
+    right: -80%;
+    width: 10px;
+    position: absolute;
+    background-color: #EBEBF0;
+    transform: translate(0, -50%);
+}
+
+.TwoPlayerYekchaharom>div {
+    margin: 7rem auto;
+}
+
+.TwoPlayerYekchaharom::before {
+    content: ' ';
+    height: 50%;
+    top: 50%;
+    right: -80%;
+    width: 10px;
+    position: absolute;
+    background-color: #EBEBF0;
+    transform: translate(0, -50%);
+}
+
+.TwoPlayerYekhashtom::before {
+    content: ' ';
+    height: 50%;
+    top: 50%;
+    right: -51%;
+    width: 10px;
+    position: absolute;
+    background-color: #EBEBF0;
+    transform: translate(0, -50%);
+}
+
+.PlayerInfo {
+    padding: 10px 20px;
+    text-align: left;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 15px;
+    width: 220px;
+    height: 110px;
+    position: relative;
+
+}
+
+.Topline::before {
+    content: ' ';
+    height: 10px;
+    width: 80%;
+    top: 50%;
+    right: -120%;
+    position: absolute;
+    background-color: #EBEBF0;
+    transform: translate(-50%, 0);
+}
+
+.DownlineYekWinner::after,
+.DownlineFinal::after {
+    content: ' ';
+    position: absolute;
+    background-color: #EBEBF0;
+    transform: translate(-50%, 0);
+    height: 10px;
+    width: 5rem;
+
+    left: -18%;
+    top: 50%;
+}
+
+.DownlineYekYekchaharom::after {
+    content: ' ';
+    position: absolute;
+    background-color: #EBEBF0;
+    transform: translate(-50%, 0);
+    height: 10px;
+    width: 7rem;
+    left: -26%;
+    top: 50%;
+}
+
+.CoachName {
+    color: #717FBB;
+}
+
+.FighterName {
+    font-size: 17px;
+    margin-left: 5px;
+    /* color: black; */
+}
+
+.PlayerInfo:nth-child(2n) {
+    color: #4F7DFF;
+}
+
+.PlayerInfo:nth-child(2n+1) {
+    color: #FF6161;
+}
+
+.FighterName::before {
+    background-color: black;
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    border-radius: 25px;
+    content: ' ';
+    width: 10px;
+    height: 10px;
+
+}
+
+.MatchNumber {
+    padding: .5rem;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: #8F90A6;
+    font-size: 15px;
+}
+
+.MatchNumber_Number {
+    background: #C7C9D9;
+    border-radius: 50%;
+padding:2px 5px;
+}
